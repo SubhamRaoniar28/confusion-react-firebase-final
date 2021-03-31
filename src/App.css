@@ -1,0 +1,112 @@
+.row-header{
+    margin:0px auto;
+    padding:0px auto;
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+.footer{
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+    background: hsla(236, 100%, 8%, 1);
+    background: linear-gradient(90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000328", endColorstr="#00458E", GradientType=1 );
+    color:lightgray;
+}
+
+.footer > Link{
+    color: lightgray;
+}
+
+.text-white{
+    color: floralwhite;
+}
+
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    
+    background: hsla(211, 100%, 28%, 1);
+    
+    color:#FDFDFD;
+}
+
+.footer-address{
+    font-size:80%;
+    margin:0px;
+    color: lightgray;
+}
+
+.color-red{
+    background-color: #fd4b2f;
+}
+
+.color-lightgray{
+    color: lightgray;
+}
+
+.grey-background{
+    background-color: #FAFAFA;
+}
+
+.navbar-dark {
+    background: hsla(236, 100%, 8%, 1);
+    background: linear-gradient(-90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
+    background: -moz-linear-gradient(-90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
+    background: -webkit-linear-gradient(-90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000328", endColorstr="#00458E", GradientType=1 );
+    color: floralwhite;
+}
+
+a.nav-link{
+    color: lightgray !important;
+} 
+
+a.nav-link:hover{
+    color: white !important;
+}
+
+a.nav-link:focus, a.nav-link:active{
+    color: white !important;
+}
+
+.homeBackground{
+    background-color: #fd4b2f;
+}
+
+.fa-heart{
+    color: red;
+}
+
+.fa-sign-in, .fa-sign-out{
+    color: lightgray;
+}
+
+.page-enter {
+    opacity: 0.01;
+    transform: translateX(-100%);
+}
+
+.page-enter-active {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 300ms ease-in;
+}
+
+.page-exit {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.page-exit-active {
+    opacity: 0.01;
+    transform: translateX(100%);
+    transition: all 300ms ease-out;
+}

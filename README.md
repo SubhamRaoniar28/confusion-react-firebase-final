@@ -1,4 +1,6 @@
-https://user-images.githubusercontent.com/41485604/113194129-68664700-927e-11eb-9ab5-50379aaa2bf1.png
+## This project is a Restaurant web application called Confusion made using React and Firebase.
+
+![image](https://user-images.githubusercontent.com/41485604/113194327-a3687a80-927e-11eb-8d09-d1571b3a5431.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
